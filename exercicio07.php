@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Números Perfeitos</title>
 </head>
+
 <body>
+
     <h2>Verifique se um número é perfeito</h2>
+
     <form method="POST" action="">
         <label for="numero">Digite um número:</label>
         <input type="number" id="numero" name="numero" min="1" required>
@@ -13,8 +17,9 @@
     </form>
 
     <?php
-    
-    function somaDivisoresProprios($num) {
+
+    function somaDivisoresProprios($num)
+    {
         $soma = 0;
         for ($i = 1; $i <= $num / 2; $i++) {
             if ($num % $i == 0) {
@@ -24,7 +29,7 @@
         return $soma;
     }
 
-    
+
     if (isset($_POST['verificar'])) {
         $numero = intval($_POST['numero']);
         $soma = somaDivisoresProprios($numero);
@@ -39,4 +44,5 @@
     }
     ?>
 </body>
+
 </html>

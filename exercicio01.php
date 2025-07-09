@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Verificar Par ou Ímpar</title>
 </head>
+
 <body>
 
     <h2>Digite um número para verificar se é par ou ímpar:</h2>
@@ -29,4 +31,5 @@
     ?>
 
 </body>
+
 </html>
