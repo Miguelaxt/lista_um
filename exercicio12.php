@@ -30,7 +30,7 @@
             }
         }
 
-        echo "<p>Quantidade de vogais: <strong>$contador</strong></p>";
+        echo "<p>Quantidade de vogais: $contador</p>";
     }
     ?>
 

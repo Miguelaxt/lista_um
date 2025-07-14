@@ -34,7 +34,7 @@
         $numero = intval($_POST['numero']);
         $divisores = encontrarDivisores($numero);
 
-        echo "<p>Divisores de <strong>$numero</strong>:</p>";
+        echo "<p>Divisores de $numero:</p>";
         echo "<ul>";
         foreach ($divisores as $div) {
             echo "<li>$div</li>";
